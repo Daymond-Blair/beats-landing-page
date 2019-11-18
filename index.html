@@ -1,12 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Headphones</title>
+  </head>
+
+  <body>
+    <section id="top-jumbo">
+      <header>
+        <div class="container-fluid">
+          <div class="logo">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt=""
+            />
+          </div>
+          <div class="menu">
+            <a href="#">Features</a>
+            <a href="#">Gallery</a>
+            <a href="#">Product Specs</a>
+            <a href="#">Support</a>
+          </div>
+          <div class="header-buttons">
+            <a href="#" class="blue-btn box-shadow-down"
+              >Checkout <i class="fa fa-shopping-cart" aria-hidden="true"></i
+            ></a>
+            <a href="#" class="orange-btn box-shadow-down">Sign In</a>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="left-side">
+          <div class="large-number">B3</div>
+          <div class="info-container">
+            <h1>
+              Premium, closed-ear cups deliver deep, quality bass.
+            </h1>
+            <p>Winner of Audiophile's Best Bass Award 2019.</p>
+            <form class="email-area box-shadow-down">
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <input type="email" name="email" placeholder="Enter your email" />
+              <button type="submit" name="button">
+                Send
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="right-side">
+          <img src="img/large-headphone.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="design-by">
+      <div class="container">
+        <div class="design-container box-shadow-down">
+          <div class="info-section">
+            <div class="bg-container">
+              <img src="img/large-headphone.png" class="bg-image" />
+              <h5>Design by:</h5>
+              <h3>Headphone</h3>
+              <ul class="info-list">
+                <li>
+                  <span class="circle"
+                    ><i class="fa fa-check" aria-hidden="true"></i></span
+                  >4 hours of playtime on one charge
+                </li>
+                <li>
+                  <span class="circle"
+                    ><i class="fa fa-check" aria-hidden="true"></i></span
+                  >Intuitive touch interface & microphone
+                </li>
+                <li>
+                  <span class="circle"
+                    ><i class="fa fa-check" aria-hidden="true"></i></span
+                  >High quality sound
+                </li>
+              </ul>
+              <a href="#" class="box-shadow-down white-btn">Learn More</a>
+            </div>
+          </div>
+          <div class="icon-section">
+            <div class="refresh-circle box-shadow-center">
+              <i class="fa fa-retweet" aria-hidden="true"></i>
+            </div>
+            <div class="icon-box">
+              <i class="fa fa-cut" aria-hidden="true"></i>
+              <div class="title">
+                Design
+              </div>
+            </div>
+            <div class="icon-box">
+              <i class="fa fa-plug" aria-hidden="true"></i>
+              <div class="title">
+                Cord
+              </div>
+            </div>
+            <div class="icon-box">
+              <i class="fa fa-anchor" aria-hidden="true"></i>
+              <div class="title">
+                Weight
+              </div>
+            </div>
+            <div class="icon-box">
+              <i class="fa fa-podcast" aria-hidden="true"></i>
+              <div class="title">
+                Device Controls
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="color-collection">
+      <div class="container">
+        <div class="left-side">
+          <img src="img/large-headphone.png" alt="" />
+        </div>
+
+        <div class="right-side">
+          <div class="swatch-area box-shadow-center">
+            <div class="circle box-shadow-down"></div>
+            <div class="circle box-shadow-down"></div>
+            <div class="circle box-shadow-down"></div>
+          </div>
+          <div class="info-box box-shadow-center">
+            <h2>
+              <span class="orange">The</span>
+              <span class="blue">Color</span>
+              <span class="purple">Collection</span>
+            </h2>
+
+            <p>
+              Let the world in with one quick gesture
+            </p>
+            <a href="#">Explore</a>
+            <div class="line"></div>
+          </div>
+          <div class="color-slider">
+            <div class="picker box-shadow-center"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
