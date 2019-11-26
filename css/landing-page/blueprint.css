@@ -1,80 +1,106 @@
 #blueprint {
-  background: #6066f2;
-  padding: 170px 0;
-  color: white;
+    background: #232c66;
+    background: -moz-linear-gradient(-45deg, #232c66 1%, #6066f2 100%);
+    background: -webkit-linear-gradient(-45deg, #232c66 1%, #6066f2 100%);
+    background: linear-gradient(135deg, #232c66 1%, #6066f2 100%);
+    padding: 170px 0;
+    color: white;
 }
 
-#blueprint .container {
-}
+#blueprint .container {}
 
 #blueprint .container:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #blueprint .container .left-side {
-  width: 60%;
-  float: left;
+    width: 60%;
+    float: left;
 }
 
 #blueprint .container .left-side img {
-  width: 100%;
+    width: 100%;
 }
 
 #blueprint .container .right-side {
-  width: 40%;
-  float: left;
+    width: 40%;
+    float: left;
 }
 
 #blueprint .container .right-side h1 {
-  font-size: 4rem;
-  font-weight: 700;
-  text-decoration: none;
-  text-transform: capitalize;
-  margin-bottom: 70px;
+    font-size: 4rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+    line-height: 1.2;
+}
+
+#blueprint .right-side .info-box {
+    padding: 0 0 80px;
 }
 
 #blueprint .right-side .info-box:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 #blueprint .right-side .info-box .col-1 {
-  width: 40%;
-  float: left;
+    width: 40%;
+    float: left;
 }
 
 #blueprint .right-side .info-box .col-1 .icon-container {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  border: 2px solid white;
-  position: relative;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid white;
+    position: relative;
 }
 
 #blueprint .right-side .info-box .col-1 .icon-container .dashed-circle {
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  border: 2px dashed white;
-  margin: 0 auto;
-  top: 14px;
-  left: 13px;
-  position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px dashed white;
+    margin: 0 auto;
+    top: 15px;
+    left: 15px;
+    position: absolute;
 }
 
 #blueprint .right-side .info-box .col-1 .icon-container .fa {
-  position: absolute;
-  top: 30px;
-  left: 47px;
-  font-size: 5.5rem;
+    position: absolute;
+    top: 32px;
+    left: 48px;
+    font-size: 5rem;
 }
 
 #blueprint .right-side .info-box .col-2 {
-  width: 60%;
-  float: left;
+    width: 60%;
+    float: left;
 }
 
-/*  */
+#blueprint .right-side .info-box .col-2 h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    margin-top: 29px;
+
+}
+
+#blueprint .right-side .info-box .col-2 p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+
+}
+
+#blueprint .right-side .info-box .col-2 a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #FEA83B;
+}
