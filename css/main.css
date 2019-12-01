@@ -4,6 +4,8 @@
 @import "landing-page/design-by.css";
 @import "landing-page/color-collection.css";
 @import "landing-page/blueprint.css";
+@import "landing-page/latest.css";
+
 
 /*
 COLOR THEME FROM DESIGN DOC
@@ -12,6 +14,7 @@ FEA83B orange
 B286F8 purple
 4C44C1 blue
 E6CDF9 light purple
+d5e2ea light placeholder
 */
 .container {
     max-width: 1200px;
@@ -40,4 +43,8 @@ E6CDF9 light purple
     -webkit-box-shadow: 0px 0px 40px -10px rgba(158, 158, 158, 0.2);
     -moz-box-shadow: 0px 0px 40px -10px rgba(158, 158, 158, 0.2);
     box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
+}
+
+input::placeholder {
+    color: #d5e2ea;
 }
