@@ -167,3 +167,9 @@
     top: 200px;
     left: -10px;
 }
+
+@media only screen and (max-width:1215px) {}
+
+@media only screen and (max-width:1023px) {}
+
+@media only screen and (max-width:767px) {}

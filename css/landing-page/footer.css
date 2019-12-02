@@ -51,3 +51,9 @@ footer .social-media li a {
     font-size: 2rem;
     opacity: .5;
 }
+
+@media only screen and (max-width:1215px) {}
+
+@media only screen and (max-width:1023px) {}
+
+@media only screen and (max-width:767px) {}

@@ -337,3 +337,9 @@
     border-radius: 50px;
     text-transform: uppercase;
 }
+
+@media only screen and (max-width:1215px) {}
+
+@media only screen and (max-width:1023px) {}
+
+@media only screen and (max-width:767px) {}
