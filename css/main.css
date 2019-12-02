@@ -45,6 +45,18 @@ d5e2ea light placeholder
     box-shadow: 0px 0px 65px 13px rgba(158, 158, 158, 0.2);
 }
 
+.box-shadow-bottom-right {
+    -webkit-box-shadow: 32px 46px 27px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 32px 46px 27px -11px rgba(0, 0, 0, 0.75);
+    box-shadow: 32px 46px 27px -11px rgba(0, 0, 0, 0.75);
+}
+
 input::placeholder {
     color: #d5e2ea;
 }
+
+@media only screen and (max-width:1215px) {}
+
+@media only screen and (max-width:1023px) {}
+
+@media only screen and (max-width:767px) {}
