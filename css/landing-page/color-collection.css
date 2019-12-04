@@ -108,7 +108,7 @@
     text-align: center;
 }
 
-#color-collection .right-side .info-box h2 span0.orange {
+#color-collection .right-side .info-box h2 span.orange {
     color: #FEA83B;
     font-weight: 100;
 }
@@ -172,4 +172,21 @@
 
 @media only screen and (max-width:1023px) {}
 
-@media only screen and (max-width:767px) {}
+@media only screen and (max-width:767px) {
+    #color-collection .left-side {
+        width: 100%;
+    }
+
+    #color-collection .right-side {
+        width: 100%;
+        padding: 100px 0;
+    }
+
+    #color-collection .right-side .color-slider {
+        position: relative;
+        width: 20px;
+        height: 500px;
+        border-radius: 40px;
+
+    }
+}
