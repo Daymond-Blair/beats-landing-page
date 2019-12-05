@@ -76,4 +76,9 @@ header .header-buttons .orange-btn {
 
 @media only screen and (max-width:1023px) {}
 
-@media only screen and (max-width:767px) {}
+@media only screen and (max-width:767px) {
+    header .logo {
+        text-align: center;
+    }
+
+}
